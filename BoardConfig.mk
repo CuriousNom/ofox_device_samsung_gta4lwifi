@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/gta4l
+DEVICE_PATH := device/samsung/gta4lwifi
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -37,7 +37,7 @@ TARGET_USES_64_BIT_BINDER := true
 TARGET_SUPPORTS_64_BIT_APPS := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := gta4l
+TARGET_OTA_ASSERT_DEVICE := gta4lwifi
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := bengal
@@ -146,7 +146,7 @@ BOARD_USES_QCOM_FBE_DECRYPTION := true
 PRODUCT_ENFORCE_VINTF_MANIFEST := true
 
 # TWRP Configuration
-TW_DEVICE_VERSION := 1_MRX7014
+TW_DEVICE_VERSION := CuriousNom
 TW_THEME := portrait_hdpi
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file
