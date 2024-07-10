@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-PRODUCT_RELEASE_NAME := gta4l
+PRODUCT_RELEASE_NAME := gta4lwifi
 
 # Inherit from common AOSP config
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
@@ -28,12 +28,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from this device
-$(call inherit-product, device/samsung/gta4l/device.mk)
+$(call inherit-product, device/samsung/gta4lwifi/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := gta4l
-PRODUCT_NAME := twrp_gta4l
+PRODUCT_DEVICE := gta4lwifi
+PRODUCT_NAME := twrp_gta4lwifi
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-T505N
+PRODUCT_MODEL := SM-T500
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_GMS_CLIENTID_BASE := android-samsung
+PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
